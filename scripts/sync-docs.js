@@ -32,6 +32,20 @@ const configs = [
             introduction: '2PACX-1vTL2lAqDdNVlPAfH2zJY--nfMVTEwXCEQcv_zp0b1AZXYLSxPc5QxdclLkYi4LMHGwA2UbxMM2nakyR',
         },
     },
+    {
+        year: '2027',
+        outputDir: path.join(process.cwd(), 'src', 'content', '2027_tracks'),
+        imagePublicDir: path.join(process.cwd(), 'public', 'img', '27track_info'),
+        publicImageUrl: '/img/27track_info',
+        tracks: {
+            track1: '2PACX-1vTVHPe9g-D9Yjp96P2wKhLqMvtFMaYKZY1ZbZYK_6EafKAjxgNq3wpPfONLnqe8UvxpK2JXmjxkHvZM',
+            track2: '2PACX-1vSlWzXZ0XgHcElit7OWFtglCD_yLNJMI1NnHuS-rsV51KccgXGMmRatbx6VyExUroX5GrHazPmmjB_j',
+            track3: '2PACX-1vSclp8rUhscPXwlefbSFuJ6egY72nZDpG-3oJCDwuqU0epb39rfl5oBl9-YPO-B1tQDm5JWoUQBuyuB',
+        },
+        pages: {
+            introduction: '2PACX-1vTzsqiJmogFXvhoOpCv5etVw6scG1_M3OTYHVqyPIEH66JN0hq4K5mCAWXQ7b9jIc9hu2792qdEcofD',
+        },
+    },
 ];
 
 async function syncDocs() {

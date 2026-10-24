@@ -96,7 +96,7 @@ export default function Header() {
                 onMouseEnter={() => handleMouseEnter("Open Submission")}
                 onMouseLeave={() => handleMouseLeave("Open Submission")}
               >
-                <a href="/2026LPCVC/submission/track1">
+                <a href="/2027LPCVC/submission/track1">
                   Open Submission{" "}
                   <i
                     className={`fa ${expandedMenus["Open Submission"] ? "fa-chevron-up" : "fa-chevron-down"}`}
@@ -106,13 +106,13 @@ export default function Header() {
                   style={{ display: expandedMenus["Open Submission"] ? "block" : "none" }}
                 >
                   <li>
-                    <a href="/2026LPCVC/submission/track1">Track 1</a>
+                    <a href="/2027LPCVC/submission/track1">Track 1</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/submission/track2">Track 2</a>
+                    <a href="/2027LPCVC/submission/track2">Track 2</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/submission/track3">Track 3</a>
+                    <a href="/2027LPCVC/submission/track3">Track 3</a>
                   </li>
                 </ul>
               </li>
@@ -121,7 +121,7 @@ export default function Header() {
                 onMouseEnter={() => handleMouseEnter("leaderboard")}
                 onMouseLeave={() => handleMouseLeave("leaderboard")}
               >
-                <a href="/2026LPCVC/leaderboard/track1">
+                <a href="/2027LPCVC/leaderboard/track1">
                   Leaderboard{" "}
                   <i
                     className={`fa ${expandedMenus["leaderboard"] ? "fa-chevron-up" : "fa-chevron-down"}`}
@@ -131,16 +131,16 @@ export default function Header() {
                   style={{ display: expandedMenus["leaderboard"] ? "block" : "none" }}
                 >
                   <li>
-                    <a href="/2026LPCVC/leaderboard/track1">Track 1</a>
+                    <a href="/2027LPCVC/leaderboard/track1">Track 1</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/leaderboard/track2">Track 2</a>
+                    <a href="/2027LPCVC/leaderboard/track2">Track 2</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/leaderboard/track3">Track 3</a>
+                    <a href="/2027LPCVC/leaderboard/track3">Track 3</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/leaderboard/failed">Failed Jobs</a>
+                    <a href="/2027LPCVC/leaderboard/failed">Failed Jobs</a>
                   </li>
                 </ul>
               </li>
@@ -153,8 +153,8 @@ export default function Header() {
                 onMouseEnter={() => handleMouseEnter("lpcvc")}
                 onMouseLeave={() => handleMouseLeave("lpcvc")}
               >
-                <a href="/2026LPCVC/introduction">
-                  2026 LPCVC{" "}
+                <a href="/2027LPCVC/introduction">
+                  2027 LPCVC{" "}
                   <i
                     className={`fa ${expandedMenus["lpcvc"] ? "fa-chevron-up" : "fa-chevron-down"}`}
                   ></i>
@@ -163,32 +163,32 @@ export default function Header() {
                   style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}
                 >
                   <li>
-                    <a href="/2026LPCVC/introduction">Introduction</a>
+                    <a href="/2027LPCVC/introduction">Introduction</a>
                   </li>
                   <li>
                     {" "}
-                    <a href="/2026LPCVC/winners">Winners</a>{" "}
+                    <a href="/2027LPCVC/winners">Winners</a>{" "}
                   </li>
                   {/* <li>
-                    <a href="/2026LPCVC/submission/track1">Open Submission</a>
+                    <a href="/2027LPCVC/submission/track1">Open Submission</a>
                   </li> */}
                   {/* <li>
                     <a>Track info to be released</a>
                   </li> */}
                   {/* <li>
-                    <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
+                    <a href="/2027LPCVC/leaderboard/track1">Leaderboard</a>
                   </li> */}
                   <li>
-                    <a href="/2026LPCVC/tracks/track1">Track 1</a>
+                    <a href="/2027LPCVC/tracks/track1">Track 1</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/tracks/track2">Track 2</a>
+                    <a href="/2027LPCVC/tracks/track2">Track 2</a>
                   </li>
                   <li>
-                    <a href="/2026LPCVC/tracks/track3">Track 3</a>
+                    <a href="/2027LPCVC/tracks/track3">Track 3</a>
                   </li>
                   {/* <li>
-                    <a href="/2026LPCVC/cvpr-workshop">CVPR Workshop</a>
+                    <a href="/2027LPCVC/cvpr-workshop">CVPR Workshop</a>
                   </li> */}
                 </ul>
               </li>
@@ -234,8 +234,8 @@ export default function Header() {
           {/* <li>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
           </li> */}
-          
-          
+
+
           <li
             className={`menu-has-children ${expandedMenus["lpcvc"] ? "menu-item-active" : ""}`}
           >
@@ -243,25 +243,25 @@ export default function Header() {
               className={`fa ${expandedMenus["lpcvc"] ? "fa-chevron-up" : "fa-chevron-down"}`}
               onClick={() => toggleSubmenu("lpcvc")}
             ></i>
-            <a href="/2026LPCVC/introduction">2026 LPCVC</a>
+            <a href="/2027LPCVC/introduction">2027 LPCVC</a>
             <ul style={{ display: expandedMenus["lpcvc"] ? "block" : "none" }}>
               <li>
-                <a href="/2026LPCVC/introduction">Introduction</a>
+                <a href="/2027LPCVC/introduction">Introduction</a>
               </li>
               <li>
-                <a href="/2026LPCVC/winners">Winners</a>
+                <a href="/2027LPCVC/winners">Winners</a>
               </li>
               {/* <li>
-                <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
+                <a href="/2027LPCVC/leaderboard/track1">Leaderboard</a>
               </li> */}
               <li>
-                <a href="/2026LPCVC/tracks/track1">Track 1</a>
+                <a href="/2027LPCVC/tracks/track1">Track 1</a>
               </li>
               <li>
-                <a href="/2026LPCVC/tracks/track2">Track 2</a>
+                <a href="/2027LPCVC/tracks/track2">Track 2</a>
               </li>
               <li>
-                <a href="/2026LPCVC/tracks/track3">Track 3</a>
+                <a href="/2027LPCVC/tracks/track3">Track 3</a>
               </li>
             </ul>
           </li>
@@ -273,16 +273,16 @@ export default function Header() {
               className={`fa ${expandedMenus["Open Submission"] ? "fa-chevron-up" : "fa-chevron-down"}`}
               onClick={() => toggleSubmenu("Open Submission")}
             ></i>
-            <a href="/2026LPCVC/submission/track1">Open Submission</a>
+            <a href="/2027LPCVC/submission/track1">Open Submission</a>
             <ul style={{ display: expandedMenus["Open Submission"] ? "block" : "none" }}>
               <li>
-                <a href="/2026LPCVC/submission/track1">Track 1</a>
+                <a href="/2027LPCVC/submission/track1">Track 1</a>
               </li>
               <li>
-                <a href="/2026LPCVC/submission/track2">Track 2</a>
+                <a href="/2027LPCVC/submission/track2">Track 2</a>
               </li>
               <li>
-                <a href="/2026LPCVC/submission/track3">Track 3</a>
+                <a href="/2027LPCVC/submission/track3">Track 3</a>
               </li>
             </ul>
           </li>
@@ -294,21 +294,21 @@ export default function Header() {
               className={`fa ${expandedMenus["leaderboard"] ? "fa-chevron-up" : "fa-chevron-down"}`}
               onClick={() => toggleSubmenu("leaderboard")}
             ></i>
-            <a href="/2026LPCVC/leaderboard/track1">Leaderboard</a>
+            <a href="/2027LPCVC/leaderboard/track1">Leaderboard</a>
             <ul
               style={{ display: expandedMenus["leaderboard"] ? "block" : "none" }}
             >
               <li>
-                <a href="/2026LPCVC/leaderboard/track1">Track 1</a>
+                <a href="/2027LPCVC/leaderboard/track1">Track 1</a>
               </li>
               <li>
-                <a href="/2026LPCVC/leaderboard/track2">Track 2</a>
+                <a href="/2027LPCVC/leaderboard/track2">Track 2</a>
               </li>
               <li>
-                <a href="/2026LPCVC/leaderboard/track3">Track 3</a>
+                <a href="/2027LPCVC/leaderboard/track3">Track 3</a>
               </li>
               <li>
-                <a href="/2026LPCVC/leaderboard/failed">Failed Jobs</a>
+                <a href="/2027LPCVC/leaderboard/failed">Failed Jobs</a>
               </li>
             </ul>
           </li>
