@@ -89,7 +89,7 @@ export default function Header() {
                 <a href="/#newsletter">Newsletter</a>
               </li>
               {/* <li>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSehqoHKNdhIIb5LTobBpDAjrYl9BqAKzPOmvcf8PdtHd9FqAQ/viewform?usp=preview">Register</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScINSx38VQ6kO8NJva4Q1apbDqjYv8wNUOOW4sX_xF3l2OWVw/viewform?usp=dialog">Register</a>
               </li> */}
               <li
                 className="menu-has-children"

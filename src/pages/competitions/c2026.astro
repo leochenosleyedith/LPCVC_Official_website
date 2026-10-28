@@ -2,102 +2,107 @@
 import PastCompLayout from "../../layouts/PastCompLayout.astro";
 ---
 
-<PastCompLayout year={2026}>
+<PastCompLayout year={2025}>
   <div>
-    <button onclick="window.open('/2026LPCVC/introduction', '_blank')">
-      Competition Introduction
-    </button>
-    <button onclick="window.open('/2026LPCVC/tracks/track1', '_blank')">
-      Track Introductions
-    </button>
-    <button onclick="window.open('/2026LPCVC/leaderboard/track1', '_blank')">
-      Leaderboards
-    </button>
-    <button onclick="window.open('/2026LPCVC/winners', '_blank')">
-      Winners' Solutions
-    </button>
+    <button onclick="window.open('/2026LPCVC/introduction', '_blank')">Competition Introduction</button>
+    <button onclick="window.open('/2026LPCVC/tracks/track1', '_blank')">Track Introductions</button>
+    <button onclick="window.open('/2026LPCVC/leaderboard/track1', '_blank')">Leaderboards</button>
+    <button onclick="window.open('/2026LPCVC/winners', '_blank')">Winners' Solutions</button>
+
 
     <hr />
+
+
 
     <h2>2026 LPCVC Overview</h2>
-    <p>
-      The 2026 IEEE Low-Power Computer Vision Challenge (LPCVC) focused on
-      efficient computer-vision models that can be optimized and deployed on
-      edge devices, including mobile phones and AI PCs. In collaboration with
-      Qualcomm AI Hub, the challenge provided an accessible evaluation process
-      for models in formats including PyTorch, TensorFlow, TFLite, and ONNX.
-    </p>
 
-    <p>The 2026 competition featured three tracks:</p>
-    <ul>
-      <li><strong>Track 1:</strong> Image-to-Text Retrieval</li>
-      <li><strong>Track 2:</strong> Action Recognition in Video</li>
-      <li><strong>Track 3:</strong> AI Generated Image Detection</li>
-    </ul>
+      <p>
+        The 2026 IEEE Low-Power Computer Vision Challenge (LPCVC) marked a decade of advancing energy-efficient computer vision technologies.
+        In collaboration with Qualcomm, this year’s competition featured three distinct tracks:
+      </p>
 
-    <p>
-      The formal submission window ran from March 1, 2026 through April 30,
-      2026. Teams submitted models through the LPCVC evaluation infrastructure,
-      and the public leaderboard displayed the resulting performance.
-    </p>
+      <ul>
+        <li><strong>Track 1:</strong> Image Classification under Various Lighting Conditions and Formats</li>
+        <li><strong>Track 2:</strong> Open-Vocabulary Segmentation with Text Prompt</li>
+        <li><strong>Track 3:</strong> Monocular Depth Estimation</li>
+      </ul>
 
-    <p>
-      The challenge encouraged practical, efficient solutions for real-world
-      edge-device applications. Winning solutions are published openly to
-      support continued development in efficient computer vision.
-    </p>
+      <p>
+        The challenge emphasized practical applications on edge devices, encouraging participants to develop models that balance accuracy with low energy consumption.
+        The submission window was open from March 1, 2025, to March 31, 2025. Winners were recognized for their innovative approaches and presented their solutions during the CVPR 2025 workshop.
+      </p>
+
+      <p>
+        A key feature of this year’s competition was the collaboration with Qualcomm, utilizing the Qualcomm AI Hub for model deployment.
+        This partnership provided participants access to Qualcomm’s advanced AI tools and platforms, enabling efficient model development and deployment on edge devices.
+      </p>
 
     <hr />
-
+    <!--==========================
+    Winner Announcement Section
+============================-->
     <h2>2026 LPCVC Winners</h2>
     <p>
-      The 2026 IEEE Low-Power Computer Vision Challenge concluded with winners
-      announced for all three tracks.
+      The 2026 IEEE Low-Power Computer Vision Challenge (LPCVC) 
+      concluded successfully on 2025/03/31, after a month-long 
+      competition. A total of 59 teams, from 14 different countries 
+      and regions, submitted 516 solutions across three tracks, 
+      out of which 218 solutions outperformed the baseline solutions.
+    </p>
+
+    <p><strong>Winners for each track are as follows:</strong></p>
+
+    <p>
+      <strong>Track 1: Image Classification under Various Lighting Conditions and Formats</strong><br />
+      <span style="margin-left: 1em;">LabLVM – Score: 0.97406639, Time: 1.612 ms</span><br />
+      <span style="margin-left: 1em;">Team members: Seungmin Oh, Hankyul Kang, Seunghun Kang, Jongbin Ryu</span>
     </p>
 
     <p>
-      <strong>Track 1: Image-to-Text Retrieval</strong><br />
-      <span style="margin-left: 1em;">1st: EfficientAI</span><br />
-      <span style="margin-left: 1em;">2nd: mangojump</span><br />
-      <span style="margin-left: 1em;">3rd: Team Manifold</span>
+      <strong>Track 2: Open-Vocabulary Segmentation with Text Prompt</strong><br />
+      <span style="margin-left: 1em;">SICer – Score: 0.5321869337, Time: 515.8 ms</span><br />
+      <span style="margin-left: 1em;">Team members: Yuning Ji, Zizhou Tong, Zhuohang Li, Xinxin Wang, Chaoyao Shen, Linghui Kong, Chenlong Xia, Bohan Guo, Meng Zhang</span>
     </p>
 
     <p>
-      <strong>Track 2: Action Recognition in Video</strong><br />
-      <span style="margin-left: 1em;">1st: EfficientAI</span><br />
-      <span style="margin-left: 1em;">2nd: team-alpha</span><br />
-      <span style="margin-left: 1em;">3rd: CDA-IITGoa</span>
+      <strong>Track 3: Monocular Depth Estimation</strong><br />
+      <span style="margin-left: 1em;">Sailor Moon – Score: 83.1397434, Time: 30.4 ms</span><br />
+      <span style="margin-left: 1em;">Team members: Kexin Chen, Yuan Qi</span>
     </p>
 
     <p>
-      <strong>Track 3: AI Generated Image Detection</strong><br />
-      <span style="margin-left: 1em;">1st: OptimAI</span><br />
-      <span style="margin-left: 1em;">2nd: SSUPER_POWER</span><br />
-      <span style="margin-left: 1em;">3rd: MaXinLab and TigerSecLab (amirsalar)</span>
+      Congratulations to all winners for their outstanding achievements 
+      in advancing low-power computer vision research.
     </p>
 
-    <p>
-      See the <a href="/2026LPCVC/winners">2026 winners page</a> for the
-      teams' solution links and additional details.
-    </p>
+    <!--==========================
+    CVPR Workshop
+============================-->
 
     <hr />
-
-    <h2>Workshop and Sponsor</h2>
+    <h2>8th Workshop on Efficient Deep Learning for Computer Vision</h2>
     <p>
-      LPCVC was associated with the ECV Workshop at CVPR 2026 in Denver,
-      Colorado, on June 3, 2026. The 2026 challenge was sponsored by Qualcomm.
+      <div style="display: flex;">
+        <img
+          src="/img/2025cvpr/IMG_0308.JPG"
+          style="width:30%; height: auto; margin-bottom: 20px; margin-right: 5%; border: 1px solid black;"
+        />
+        <img
+          src="/img/2025cvpr/IMG_0322.JPG"
+          style="width:30%; height: auto; margin-bottom: 20px; margin-right: 5%; border: 1px solid black;"
+        />
+        <img
+          src="/img/2025cvpr/IMG_0341.jpg"
+          style="width:30%; height: auto; margin-bottom: 20px; border: 1px solid black;"
+        />
+          </div>
     </p>
-    <p>
-      <a
-        href="https://ecv-workshop.github.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >Workshop Information</a>
-    </p>
+    
+    <!--==========================
+    Sponsors Section
+============================-->
 
     <hr />
-
     <h2>Sponsors</h2>
     <center>
       <div class="sponsors-images">
@@ -119,18 +124,10 @@ import PastCompLayout from "../../layouts/PastCompLayout.astro";
       </div>
     </center>
 
+    <!--==========================
+    Organizers Section
+============================-->
     <hr />
-
-    <h2>Competition Resources</h2>
-    <ul>
-      <li><a href="/2026LPCVC/introduction">Competition introduction and participation details</a></li>
-      <li><a href="/2026LPCVC/tracks/track1">Track descriptions</a></li>
-      <li><a href="/2026LPCVC/leaderboard/track1">Final competition leaderboards</a></li>
-      <li><a href="/2026LPCVC/winners">Winning solutions</a></li>
-    </ul>
-
-    <hr />
-
     <h2>Organizers</h2>
     <table
       border=""
@@ -145,45 +142,204 @@ import PastCompLayout from "../../layouts/PastCompLayout.astro";
         </tr>
       </thead>
       <tbody style="margin-bottom: 0;">
-        <tr><td>Yung-Hsiang Lu</td><td>Professor, Purdue University</td><td>yunglu@purdue.edu</td></tr>
-        <tr><td>Zihao Ye</td><td>Purdue University</td><td>ye277@purdue.edu</td></tr>
-        <tr><td>Vincent Zhao</td><td>Purdue University</td><td>zhao1322@purdue.edu</td></tr>
-        <tr><td>George Thiruvathukal</td><td>Professor, Loyola University Chicago</td><td>gthiruvathukal@luc.edu</td></tr>
-        <tr><td>Mooi Choo Chuah</td><td>Professor, Lehigh University</td><td>mcc7@lehigh.edu</td></tr>
-        <tr><td>Bo Lang</td><td>Lehigh University</td><td>bol221@lehigh.edu</td></tr>
-        <tr><td>Zhen Yao</td><td>Lehigh University</td><td>zhy321@lehigh.edu</td></tr>
-        <tr><td>Zhihao Zheng</td><td>Lehigh University</td><td>zhzc21@lehigh.edu</td></tr>
-        <tr><td>Shuai Zhang</td><td>Qualcomm</td><td>shuazhan@qti.qualcomm.com</td></tr>
-        <tr><td>Xiao Hu</td><td>Qualcomm</td><td>hux@qti.qualcomm.com</td></tr>
-        <tr><td>Taotao Jing</td><td>Qualcomm</td><td>tjing@qti.qualcomm.com</td></tr>
-        <tr><td>Xin Li</td><td>Qualcomm</td><td>lxi@qti.qualcomm.com</td></tr>
-        <tr><td>Kory Watson</td><td>Qualcomm</td><td>kwatson@qti.qualcomm.com</td></tr>
-        <tr><td>Ashwin Murthy</td><td>Qualcomm</td><td>ashwmurt@qti.qualcomm.com</td></tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Yung-Hsiang Lu</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">
+              <span class="c0 c8">Professor, Purdue University</span>
+            </p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c55">yunglu@purdue.edu</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Zihao Ye</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">
+              <span class="c0 c8">Purdue University</span>
+            </p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">ye277@purdue.edu</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Vincent Zhao</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">
+              <span class="c0 c8">Purdue University</span>
+            </p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">zhao1322@purdue.edu</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">George Thiruvathukal</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">
+              <span class="c0 c8">Professor, Loyola University Chicago</span>
+            </p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">gthiruvathukal@luc.edu</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Mooi Choo Chuah</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">
+              <span class="c0 c8">Professor, Lehigh University</span>
+            </p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">mcc7@lehigh.edu</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Bo Lang</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">
+              <span class="c0 c8">Lehigh University</span>
+            </p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">bol221@lehigh.edu</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Zhen Yao</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">
+              <span class="c0 c8">Lehigh University</span>
+            </p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">zhy321@lehigh.edu</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Zhihao Zheng</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">
+              <span class="c0 c8">Lehigh University</span>
+            </p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">zhzc21@lehigh.edu</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Shuai Zhang</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">Qualcomm</p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">shuazhan@qti.qualcomm.com</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Xiao Hu</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">Qualcomm</p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">hux@qti.qualcomm.com</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Taotao Jing</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">Qualcomm</p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">tjing@qti.qualcomm.com</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Xin Li</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">Qualcomm</p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">lxi@qti.qualcomm.com</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Kory Watson</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">Qualcomm</p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">kwatson@qti.qualcomm.com</span></p>
+          </td>
+        </tr>
+        <tr class="c7">
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c0 c8">Ashwin Murthy</span></p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5">Qualcomm</p>
+          </td>
+          <td class="c14" colspan="1" rowspan="1">
+            <p class="c5"><span class="c3 c35">ashwmurt@qti.qualcomm.com</span></p>
+          </td>
+        </tr>
       </tbody>
+
     </table>
-  </div>
-</PastCompLayout>
+  </div></PastCompLayout
+>
+
 
 <style>
+  /* Container spacing */
   div > button {
-    margin-right: 10px;
-    padding: 8px 16px;
+    margin-right: 10px;      /* space between buttons */
+    padding: 8px 16px;       /* nice click area */
     font-size: 1rem;
     font-weight: 500;
     border-radius: 5px;
-    border: 1px solid #18d26e;
-    background-color: #18d26e;
+    border: 1px solid #18d26e; /* subtle border */
+    background-color: #18d26e;  /* primary color */
     color: white;
     cursor: pointer;
     transition: all 0.2s ease;
   }
 
   div > button:hover {
-    background-color: #18d26fdf;
+    background-color: #18d26fdf; /* slightly darker on hover */
     border-color: #18d26fdf;
   }
 
   div > button:active {
-    transform: translateY(1px);
+    transform: translateY(1px); /* subtle click effect */
   }
 </style>
